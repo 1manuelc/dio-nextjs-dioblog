@@ -10,10 +10,10 @@ const SmallPost: React.FC<SmallPostProps> = ({ title, description }) => {
 				<h4 className="font-bold text-lg">{title}</h4>
 				<p
 					className={
-						description?.length !== 0 ? "text-zinc-400" : "text-zinc-600"
+						description?.length !== 0 ? 'text-zinc-400' : 'text-zinc-600'
 					}
 				>
-					{(description?.length === 0 && "Empty description") || description}
+					{(description?.length === 0 && 'Empty description') || description}
 				</p>
 			</a>
 		</li>

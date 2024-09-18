@@ -1,5 +1,5 @@
-import SmallUser from "@/components/small-user";
-import SmallPost from "@/components/small-post";
+import SmallUser from '@/components/small-user';
+import SmallPost from '@/components/small-post';
 
 export default function Home() {
 	return (

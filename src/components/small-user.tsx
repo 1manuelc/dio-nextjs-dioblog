@@ -5,13 +5,15 @@ interface SmallUserProps {
 	userId: string;
 }
 
-const SmallUser: React.FC<SmallUserProps> = ({ name, description, photoUrl, userId }) => {
+const SmallUser: React.FC<SmallUserProps> = ({
+	name,
+	description,
+	photoUrl,
+	userId,
+}) => {
 	return (
 		<li className="hover:opacity-60 transition-opacity">
-			<a
-				href={`/user/${userId}`}
-				className="flex items-center gap-4"
-			>
+			<a href={`/user/${userId}`} className="flex items-center gap-4">
 				<img
 					className="bg-zinc-600 rounded-full w-12 h-12"
 					src={photoUrl}

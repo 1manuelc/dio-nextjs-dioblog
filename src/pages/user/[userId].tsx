@@ -1,5 +1,5 @@
-import SmallPost from "@/components/small-post";
-import type { NextPage } from "next";
+import SmallPost from '@/components/small-post';
+import type { NextPage } from 'next';
 
 const UserPage: NextPage = () => {
 	return (
